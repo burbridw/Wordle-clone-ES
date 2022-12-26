@@ -40,7 +40,7 @@ const fourLetterWordsObj = {
     "boat": "./images/vehicles/img8.png", "book": "./images/commonitems/img11.png", "bean": "./images/fruitsvegetables/img3.png", "lake": "./images/nature/img4.png", 
     "look": "./images/actions2/img3.png", "turn": "./images/actions1/img9.png", "pink": "./images/colours/img6.png", "bake": "./images/actions1/img13.png", 
     "soft": "./images/tastes/img7.png", "post": "./images/buildings/img14.png", "good": "./images/feelings/img2.png", "read": "./images/actions1/img22.png", 
-    "lion": "./images/animals/img5.png","card": "./images/activities/img10.png"
+    "lion": "./images/animals/img5.png","card": "./images/activities/img10.png", "four": "./images/numbers/img4.png", "nine": "./images/numbers/img9.png"
 }
 
 const fiveLetterWordsObj = {
@@ -69,7 +69,8 @@ const fiveLetterWordsObj = {
     "short": "./images/conditions/img4.png", "water": "./images/drinks/img7.png", "melon": "./images/fruitsvegetables/img16.png", "peach": "./images/fruitsvegetables/img21.png", 
     "brave": "./images/personalities/img2.png", "snowy": "./images/weather/img4.png", "night": "./images/timesofday/img4.png", "camel": "./images/animals/img10.png", 
     "track": "./images/sports/img10.png", "field": "./images/sports/img10.png", "apple": "./images/fruitsvegetables/img1.png", "lemon": "./images/fruitsvegetables/img14.png", 
-    "eagle": "./images/animals/img24.png", "cream": "./images/desserts/img4.png", "drama": "./images/schoolevents/img4.png", "snack": "./images/desserts/img8.png"
+    "eagle": "./images/animals/img24.png", "cream": "./images/desserts/img4.png", "drama": "./images/schoolevents/img4.png", "snack": "./images/desserts/img8.png",
+    "three": "./images/numbers/img3.png", "seven": "./images/numbers/img7.png", "eight": "./images/numbers/img8.png"
 }
 
 const sixLetterWordsObj = {"doctor": "./images/jobs/img5.png", "mother": "./images/family/img3.png", 
@@ -101,7 +102,9 @@ const sixLetterWordsObj = {"doctor": "./images/jobs/img5.png", "mother": "./imag
 "hotdog": "./images/foods/img10.png", "window": "./images/commonitems/img28.png", "purple": "./images/colours/img7.png", 
 "forest": "./images/nature/img2.png", "gentle": "./images/personalities/img5.png", "dinner": "./images/meals/img3.png", 
 "famous": "./images/descriptions/img12.png", "racket": "./images/commonitems/img3.png", "travel": "./images/actions1/img17.png", 
-"canada": "./images/countries/img4.png", "museum": "./images/buildings/img6.png"}
+"canada": "./images/countries/img4.png", "museum": "./images/buildings/img6.png", "eleven": "./images/numbers/img11.png", 
+"twelve": "./images/numbers/img12.png", "twenty": "./images/numbers/img20.png"
+}
 
 let word = ""
 let randomSelect = "" 

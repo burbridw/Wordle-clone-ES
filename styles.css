@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.everything {
+    margin: 0 auto;
+    width: 95vw;
+    max-width: 750px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    background: lightgray;
+}
+
+header {
+    width: 95vw;
+    max-width: 750px;
+    height: 9vh;
+    text-align: left;
+    font-size: 1.2rem;
+    display: flex;
+}
+.header-text {
+    height: 100%;
+    width: 80%;
+    margin-left: 10px;
+}
+header button {
+    height: 100%;
+    width: 20%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 0 5px 1px black;
+    background-color: white;
+    margin-right: 10px;
+}
+header button:hover {
+    background-color: yellow;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+header span {
+    margin-left: 15px;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+#message-box {
+    width: 330px;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dictionary {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 8%;
+    width: 90vw;
+    height: 90vh;
+    border: 2px solid black;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.dictionary-image {
+    width: 100%;
+    max-width: 160px;
+    height: 55px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.dictionary-image img {
+    height: 45px;
+    width: 70px;
+}
+.dictionary button {
+    position: absolute;
+    right: 0%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: visible;
+}
+.dictionary button:hover {
+    background-color: yellow;
+    transition: all 0.5s linear;
+}
+
+
+.reset-box {
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgb(243, 243, 231);;
+    font-size: 2rem;
+    width: 350px;
+    height: 40vh;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 2px dimgray;
+}
+
+.reset-button-box {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.reset-box button {
+    height: 90%;
+    background-color: palegreen;
+    box-shadow: 0 0 1px 1px black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.reset-box div {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    border-radius: 10px;
+    background-color: transparent;
+}
+#change-btn {
+    display: block;
+}
+#end-message {
+    height: 20%;
+}
+#end-image {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.reset-box div img {
+    width: 120px;
+    height: 80px;
+    border-radius: 10px;
+    align-items: center;
+}
+.upper-container {
+    width: 100%;
+    height: 60vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+}
+.lower-container {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.upper-inner-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+}
+
+.game-select-window {
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 40vh;
+    width: 40vw;
+    box-shadow: 2px 2px 1px 2px black;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+.game-select-text {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+.game-select-text span {
+    background-color: transparent;
+}
+.game-select-button-container {
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: transparent;
+    gap: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.game-select-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 1px 1px 2px black;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: lightgreen;
+}
+.game-select {
+    background-color: transparent;
+}
+
+.answer-box-container {
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    gap: 1px;
+    
+}
+.answer-image-container {
+    width: 20%;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+}
+.answer-image {
+    width: 80px;
+    height: 9vh;
+    border-radius: 5px;
+}
+.answer-image img {
+    width: 100%;
+    height: 100%;
+}
+.answer-input {
+    width: 100%;
+    height: 9vh;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-bottom: 3px;
+}
+
+.answer-box {
+    height: 9vh;
+    width: 11vh;
+    box-shadow: 1px 1px 2px 1px black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: all 0.5s linear;
+}
+
+
+.keyboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 750px;
+    height: 100%;
+    justify-content: center;
+    gap: 4px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.key {
+    width: 9%;
+    height: 9vh;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px 1px black;
+    transition: all 0.1s linear;
+    background-color: lightblue;
+}
+.actionkey {
+    width: 13%;
+    height: 9vh;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px 1px black;
+    text-align: center;
+    transition: all 0.1s linear;
+    background-color: lightgreen;
+}
+
+@media (max-height: 400px) {
+    .key {
+        font-size: 15px;
+    }
+}
+
+.hide-me {
+    display: none;
+}
+
+.go-transparent {
+    opacity: 50%;
+}
+
+.dictionary-close {
+    height: 0px;
+    border: none;
+}
+.behind {
+    z-index: -10;
+    display: none;
+}

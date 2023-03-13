@@ -34,7 +34,7 @@ const fourLetterWordsObj = {
     "glue": "./images/stationary/img9.png", "bath": "./images/commonitems/img25.png", "busy": "./images/feelings/img8.png", "girl": "./images/people/img2.png", 
     "kiwi": "./images/fruitsvegetables/img13.png", "wash": "./images/dailyactivities/img14.png", "soup": "./images/foods/img19.png", "desk": "./images/commonitems/img21.png", 
     "ride": "./images/actions1/img16.png", "vest": "./images/clothes/img3.png", "walk": "./images/dailyactivities/img11.png", "frog": "./images/animals/img22.png", 
-    "beef": "./images/ingredients/img1.png", "join": "./images/actions2/img13.png", "arts": "./images/subjects/img8.png", "make": "./images/actions1/img11.png", 
+    "beef": "./images/ingredients/img1.png", "join": "./images/actions2/img13.png", "arts": "./images/subjects/img8.png", "make": "./images/actions2/img11.png", 
     "nose": "./images/body/img8.png", "peru": "./images/countries/img18.png", "sing": "./images/actions1/img1.png", "face": "./images/body/img2.png", "milk": "./images/drinks/img6.png", 
     "math": "./images/subjects/img5.png", "like": "./images/actions2/img1.png", "hand": "./images/body/img4.png", "talk": "./images/actions1/img24.png", 
     "boat": "./images/vehicles/img8.png", "book": "./images/commonitems/img11.png", "bean": "./images/fruitsvegetables/img3.png", "lake": "./images/nature/img4.png", 
